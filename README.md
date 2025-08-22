@@ -53,24 +53,6 @@ Kubernetes: For orchestrating and managing the containerized application compone
 
 Maven: For project build and dependency management.
 
-⚙️ Project Structure
-nexusq/
-├── producer/
-│   ├── src/main/java/com/nexusq/producer/
-│   │   ├── Task.java
-│   │   └── TaskProducer.java
-│   └── pom.xml
-├── consumer/
-│   ├── src/main/java/com/nexusq/consumer/
-│   │   └── TaskConsumer.java
-│   └── pom.xml
-├── kubernetes/
-│   ├── kafka-deployment.yaml
-│   ├── redis-deployment.yaml
-│   ├── producer-deployment.yaml
-│   └── consumer-deployment.yaml
-└── README.md
-
 🚀 Getting Started
 Prerequisites
 Java 11 or higher
